@@ -1,0 +1,27 @@
+Source: libpdf-api2-xs-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libpdf-api2-perl <!nocheck>,
+               perl-xs-dev,
+               perl:native
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-xs-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-xs-perl.git
+Homepage: https://metacpan.org/release/PDF-API2-XS
+Rules-Requires-Root: no
+
+Package: libpdf-api2-xs-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
+Description: optional PDF::API2 add-on using XS to speed up expensive operations
+ PDF::API2 will make use of the PDF::API2::XS distribution if it's installed,
+ to speed up some operations that are significantly faster in C than in Perl.
+ .
+ There's no need to interact with this distribution directly. PDF::API2 will
+ use it automatically if it detects it.

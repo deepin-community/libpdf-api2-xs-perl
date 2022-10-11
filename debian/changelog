@@ -1,0 +1,19 @@
+libpdf-api2-xs-perl (1.002-1) unstable; urgency=medium
+
+  * Import upstream version 1.002.
+  * debian/copyright: update license.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 26 Nov 2020 19:25:15 +0100
+
+libpdf-api2-xs-perl (1.001-2) unstable; urgency=medium
+
+  * Source-only no-change re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 21 Oct 2020 17:45:12 +0200
+
+libpdf-api2-xs-perl (1.001-1) unstable; urgency=low
+
+  * Initial release (closes: #971085).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 27 Sep 2020 17:36:22 +0200
